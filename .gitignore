@@ -1,0 +1,45 @@
+# Build output
+build/
+sdkconfig.old
+sdkconfig
+CMakeFiles/
+CMakeCache.txt
+
+# Logs and temporary files
+*.log
+*.elf
+*.bin
+*.map
+
+# VSCode or IDE-specific
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# ESP-IDF specific temporary files
+.ninja_deps
+.ninja_log
+app-flash_args
+flash_project_args
+project_description.json
+
+# ESP-IDF generated build folders
+dist/
+esp-idf/
+dependencies.lock
+managed_components/
+
+# Python virtual environment (ถ้ามี)
+venv/
+.env/
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
